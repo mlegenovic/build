@@ -1,0 +1,12 @@
+diff --git a/configs/odroid-m2-rk3588s_defconfig b/configs/odroid-m2-rk3588s_defconfig
+index e71e61ddb0b..fc8adc7d047 100644
+--- a/configs/odroid-m2-rk3588s_defconfig
++++ b/configs/odroid-m2-rk3588s_defconfig
+@@ -79,6 +79,7 @@ CONFIG_DEBUG_UART_SHIFT=2
+ CONFIG_SYS_NS16550_MEM32=y
+ CONFIG_ROCKCHIP_SPI=y
+ CONFIG_SYSRESET=y
++# CONFIG_GENERATE_SMBIOS_TABLE is not set
+ CONFIG_USB=y
+ CONFIG_USB_XHCI_HCD=y
+ CONFIG_USB_EHCI_HCD=y
